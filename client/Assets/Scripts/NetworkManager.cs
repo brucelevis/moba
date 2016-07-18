@@ -19,7 +19,6 @@ public class NetworkManager {
 
 	private MessageReader messageReader;
 	private MessageWriter messageWriter;
-	private BattleProxy proxy;
 
 	public GameObject playerPrefab;
 
@@ -35,7 +34,11 @@ public class NetworkManager {
 		MemoryEndianBinaryReader binaryReader;
 		//	BattleProxy proxy;
 
-		public MessageReader() {
+		IMessageListener listener;
+
+		public MessageReader(IMessageListener listener) {
+			this.listener = listener;
+
 			buf = new MemoryStream (64*1024);
 			//		this.proxy = proxy;
 			binaryReader = new MemoryEndianBinaryReader (EndianBitConverter.Big, buf);
@@ -153,7 +156,7 @@ public class NetworkManager {
 
 	private void Init() {
 		
-		proxy = new BattleProxy ();
+//		proxy = new BattleProxy ();
 
 		TcpClient tcpClient = new TcpClient ("localhost", 6000);
 		stream = tcpClient.GetStream ();

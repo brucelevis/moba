@@ -4,6 +4,8 @@ enum FieldType {
     POSITION_X,
     POSITION_Z,
     DIRECTION,
+    STATE,
+    IDLE_TIME,
 }
 
 enum EntityType {
@@ -21,9 +23,9 @@ enum EntityState {
 }
 
 struct SyncItem {
-    int32 entityId;
-    int32 timestamp;
-    int16 idleTime;
+    uint32 entityId;
+    uint32 timestamp;
+    uint16 idleTime;
     array[uint32] fields;
     array[float] values;
 }

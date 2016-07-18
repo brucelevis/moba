@@ -6,9 +6,9 @@ using MiscUtil.Conversion;
 using Talky;
 namespace info.chenliang.moba.message{
 public class SyncItem{
-public Int32 entityId;
-public Int32 timestamp;
-public Int16 idleTime;
+public UInt32 entityId;
+public UInt32 timestamp;
+public UInt16 idleTime;
 public UInt32[] fields;
 public Single[] values;
 public void Serialize(MemoryEndianBinaryWriter writer){
@@ -20,13 +20,13 @@ fm.Mark(fields != null && fields.Length > 0);
 fm.Mark(values != null && values.Length > 0);
 writer.Write(fm.GetData());
 if(fm.IsMarked(0)){
-writer.WriteInt32(entityId);
+writer.WriteUInt32(entityId);
 }
 if(fm.IsMarked(1)){
-writer.WriteInt32(timestamp);
+writer.WriteUInt32(timestamp);
 }
 if(fm.IsMarked(2)){
-writer.WriteInt16(idleTime);
+writer.WriteUInt16(idleTime);
 }
 if(fm.IsMarked(3)){
 SerializationUtil.WriteVariableLength(writer, fields.Length);
@@ -45,13 +45,13 @@ public void Deserialize(MemoryEndianBinaryReader reader){
 FieldMark fm = new FieldMark(1);
 reader.Read(fm.GetData(), 0, fm.GetData().Length);
 if(fm.ReadMark()){
-entityId = reader.ReadInt32();
+entityId = reader.ReadUInt32();
 }
 if(fm.ReadMark()){
-timestamp = reader.ReadInt32();
+timestamp = reader.ReadUInt32();
 }
 if(fm.ReadMark()){
-idleTime = reader.ReadInt16();
+idleTime = reader.ReadUInt16();
 }
 if(fm.ReadMark()){
 int __1__ = SerializationUtil.ReadVariableLength(reader);

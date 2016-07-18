@@ -1,0 +1,10 @@
+package info.chenliang.moba.message;
+
+
+interface LoginToDb {
+    
+}
+
+interface DbToLogin {
+	
+}

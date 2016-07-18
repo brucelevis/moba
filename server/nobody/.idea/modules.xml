@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nobody.iml" filepath="$PROJECT_DIR$/.idea/modules/nobody.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nobody_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nobody_main.iml" group="nobody" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nobody_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nobody_test.iml" group="nobody" />
+    </modules>
+  </component>
+</project>

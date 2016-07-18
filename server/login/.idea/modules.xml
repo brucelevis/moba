@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/battle.iml" filepath="$PROJECT_DIR$/.idea/modules/battle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/battle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/battle_main.iml" group="battle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/battle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/battle_test.iml" group="battle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/db.iml" filepath="$PROJECT_DIR$/.idea/modules/db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/db_main.iml" filepath="$PROJECT_DIR$/.idea/modules/db_main.iml" group="db" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/db_test.iml" filepath="$PROJECT_DIR$/.idea/modules/db_test.iml" group="db" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/login.iml" filepath="$PROJECT_DIR$/.idea/modules/login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/login_main.iml" filepath="$PROJECT_DIR$/.idea/modules/login_main.iml" group="login" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/login_test.iml" filepath="$PROJECT_DIR$/.idea/modules/login_test.iml" group="login" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/match.iml" filepath="$PROJECT_DIR$/.idea/modules/match.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/match_main.iml" filepath="$PROJECT_DIR$/.idea/modules/match_main.iml" group="match" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/match_test.iml" filepath="$PROJECT_DIR$/.idea/modules/match_test.iml" group="match" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nobody.iml" filepath="$PROJECT_DIR$/.idea/modules/nobody.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nobody_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nobody_main.iml" group="nobody" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nobody_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nobody_test.iml" group="nobody" />
+    </modules>
+  </component>
+</project>

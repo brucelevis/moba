@@ -1,0 +1,31 @@
+package info.chenliang.moba.message;
+
+enum PlayerType 
+{
+	PT_AI,
+	PT_HUMAN,
+}
+
+
+struct Player {
+	string name;
+	int8 id;
+}
+
+interface ClientToLogin {
+    login(string username, string password);
+}
+
+interface LoginToClient {
+	onLogin(Player player);
+}
+
+interface MatchToLogin {
+
+}
+
+interface LoginToMatch {
+
+}
+
+

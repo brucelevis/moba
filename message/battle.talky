@@ -1,0 +1,60 @@
+package info.chenliang.moba.message;
+
+enum FieldType {
+    POSITION_X,
+    POSITION_Z,
+    DIRECTION,
+}
+
+enum EntityType {
+    PLAYER,
+    MINION,
+    ROBOT,
+}
+
+enum EntityState {
+    IDLE,
+    MOVE,
+    DEAD,
+    ATTACK,
+    SKILL,
+}
+
+struct SyncItem {
+    int32 entityId;
+    int32 timestamp;
+    int16 idleTime;
+    array[uint32] fields;
+    array[float] values;
+}
+
+struct Sync {
+    uint32 timestamp;
+    array[SyncItem] items;
+}
+
+interface PlayerToBattle {
+    // for rtt
+    playerPing();
+    playerPong();
+
+    // player wants to play game
+    play();
+
+    // player move
+    moveTo(float x, float z);
+}
+
+interface BattleToPlayer {
+    // for rtt
+    battlePing();
+    battlePong();
+
+    // player is added to this arena
+    onJoinArena(int32 arenaId, Sync sync, int32 entityId);
+
+    // sync events from server
+    sync(Sync sync);
+
+    playerSpawned(int32 entityId, SyncItem item);
+}

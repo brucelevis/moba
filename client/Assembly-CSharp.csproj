@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2859A56-AB4A-51F9-60BB-1B6FC96E8C70}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;WWW_USE_CURL;HAS_NEON_SKINNIG;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CROSS_PLATFORM_INPUT;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Camera\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\Debug\DEBUG.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\Game.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\EnemyManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\GameOverManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
+    <Compile Include="Assets\Scripts\Message.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\BattleToMatchDispatcher.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\BattleToMatchProxy.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\BattleToMatchStub.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\BattleToPlayerDispatcher.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\BattleToPlayerProxy.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\BattleToPlayerStub.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\EntityState.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\EntityType.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\FieldType.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\MatchToBattleDispatcher.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\MatchToBattleProxy.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\MatchToBattleStub.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\PlayerToBattleDispatcher.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\PlayerToBattleProxy.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\PlayerToBattleStub.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\Position2d.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\Position3d.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\Snapshot.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\Sync.cs" />
+    <Compile Include="Assets\Scripts\Message\info\chenliang\moba\message\SyncItem.cs" />
+    <Compile Include="Assets\Scripts\NetworkManager.cs" />
+    <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
+    <Compile Include="Assets\_CompletedAssets\MobileInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\_CompletedAssets\MobileInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\_CompletedAssets\MobileInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\_CompletedAssets\MobileInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\_CompletedAssets\MobileInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\_CompletedAssets\MobileInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+    <Compile Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+    <Compile Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Audio\MixLevels.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Camera\CameraFollow.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Enemy\EnemyAttack.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Enemy\EnemyHealth.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Enemy\EnemyMovement.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Helpers\BeautyShot.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Helpers\RandomAnimationPoint.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Helpers\RandomParticlePoint.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Helpers\VolumeHandler.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Managers\EnemyManager.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Managers\GameOverManager.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Managers\PauseManager.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Managers\ScoreManager.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Player\PlayerHealth.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\Player\PlayerShooting.cs" />
+    <None Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />
+    <None Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="talky_c_sharp_lib">
+      <HintPath>Assets\Library\talky_c_sharp_lib.dll</HintPath>
+    </Reference>
+    <Compile Include="Assets\Scripts\IMessageListener.cs" />
+    <Compile Include="Assets\Scripts\Player\Character.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

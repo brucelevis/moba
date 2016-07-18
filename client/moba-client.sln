@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C1939157-BC63-EA7D-F8E8-6BE55FD17030}") = "moba-client", "Assembly-CSharp.csproj", "{7B68E16B-8A7F-8176-E922-EED371FFAA04}"
+EndProject
+Project("{C1939157-BC63-EA7D-F8E8-6BE55FD17030}") = "moba-client", "Assembly-CSharp-Editor.csproj", "{A6DD754E-CB63-B1D4-7807-03C717FDA260}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B68E16B-8A7F-8176-E922-EED371FFAA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B68E16B-8A7F-8176-E922-EED371FFAA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B68E16B-8A7F-8176-E922-EED371FFAA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B68E16B-8A7F-8176-E922-EED371FFAA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DD754E-CB63-B1D4-7807-03C717FDA260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DD754E-CB63-B1D4-7807-03C717FDA260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DD754E-CB63-B1D4-7807-03C717FDA260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DD754E-CB63-B1D4-7807-03C717FDA260}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

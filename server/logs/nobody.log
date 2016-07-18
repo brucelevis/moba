@@ -1,0 +1,53 @@
+2016-06-30 16:18:38 INFO  BattleChannelHandler:32 - about to join game
+2016-06-30 16:18:38 INFO  BattlePlayerProxy:46 - onJoinArena 0
+2016-06-30 16:18:38 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:18:38 INFO  BattlePlayerProxy:68 - moving to x=2602.018 z=775.455
+2016-06-30 16:18:38 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:18:41 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:18:41 INFO  BattlePlayerProxy:68 - moving to x=7577.292 z=8715.634
+2016-06-30 16:18:41 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:18:44 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:18:44 INFO  BattlePlayerProxy:68 - moving to x=4700.490 z=1083.389
+2016-06-30 16:18:44 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:18:47 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:18:47 INFO  BattlePlayerProxy:68 - moving to x=3376.743 z=5060.749
+2016-06-30 16:18:47 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:18:50 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:18:50 INFO  BattlePlayerProxy:68 - moving to x=2846.295 z=1631.209
+2016-06-30 16:18:50 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:18:53 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:18:53 INFO  BattlePlayerProxy:68 - moving to x=1398.674 z=7035.877
+2016-06-30 16:18:53 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:18:56 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:18:56 INFO  BattlePlayerProxy:68 - moving to x=3772.845 z=5792.355
+2016-06-30 16:18:56 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:18:59 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:18:59 INFO  BattlePlayerProxy:68 - moving to x=6702.670 z=1911.374
+2016-06-30 16:18:59 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:19:02 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:19:02 INFO  BattlePlayerProxy:68 - moving to x=9884.567 z=6198.334
+2016-06-30 16:19:02 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:19:05 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:19:05 INFO  BattlePlayerProxy:68 - moving to x=6688.956 z=1694.772
+2016-06-30 16:19:05 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:19:08 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:19:08 INFO  BattlePlayerProxy:68 - moving to x=6187.500 z=1642.353
+2016-06-30 16:19:08 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:19:11 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:19:11 INFO  BattlePlayerProxy:68 - moving to x=1158.991 z=1489.800
+2016-06-30 16:19:11 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:19:14 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:19:14 INFO  BattlePlayerProxy:68 - moving to x=8959.089 z=8967.784
+2016-06-30 16:19:14 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:19:17 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:19:17 INFO  BattlePlayerProxy:68 - moving to x=6940.129 z=1091.123
+2016-06-30 16:19:17 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:19:20 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:19:20 INFO  BattlePlayerProxy:68 - moving to x=7590.605 z=9980.821
+2016-06-30 16:19:20 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:19:23 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:19:23 INFO  BattlePlayerProxy:68 - moving to x=1989.197 z=7905.909
+2016-06-30 16:19:23 INFO  BattlePlayerProxy:41 - battle pong
+2016-06-30 16:19:24 INFO  BattleChannelHandler:43 - no enough input 0
+2016-06-30 16:19:26 INFO  BattlePlayerProxy:53 - ping battle 
+2016-06-30 16:19:26 INFO  BattlePlayerProxy:68 - moving to x=2451.604 z=7108.334

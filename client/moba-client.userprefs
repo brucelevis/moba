@@ -1,0 +1,26 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NetworkManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/NetworkManager.cs" Line="23" Column="68" />
+      <File FileName="Assets/Scripts/Message/info/chenliang/moba/message/MatchToBattleDispatcher.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Message/info/chenliang/moba/message/BattleToMatchDispatcher.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Message/info/chenliang/moba/message/BattleToPlayerDispatcher.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Message/info/chenliang/moba/message/BattleToPlayerProxy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Message/info/chenliang/moba/message/PlayerToBattleStub.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Debug/DEBUG.cs" Line="1" Column="1" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Enemy/EnemyMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Enemy/EnemyAttack.cs" Line="23" Column="13" />
+      <File FileName="Assets/Scripts/Player/PlayerHealth.cs" Line="44" Column="2" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Managers/EnemyManager.cs" Line="33" Column="13" />
+      <File FileName="Assets/Scripts/Managers/EnemyManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Camera/CameraFollow.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemy/EnemyAttack.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Camera/CameraMove.cs" Line="23" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

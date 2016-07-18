@@ -1,0 +1,18 @@
+package info.chenliang.moba.message;
+
+
+interface MatchToLogin {
+    
+}
+
+interface LoginToMatch {
+	
+}
+
+interface MatchToBattle {
+    
+}
+
+interface BattleToMatch {
+	
+}
